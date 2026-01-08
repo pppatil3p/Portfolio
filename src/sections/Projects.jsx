@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import SectionWrapper from "../components/SectionWrapper"
-
+import nutritionImg from "../assets/Nutrition.png";
+import tripImg from "../assets/attrip.png";
 const projects = [
   {
     number: "01",
@@ -10,7 +11,7 @@ const projects = [
     description:
       "A full-stack nutrition tracking platform that enables users to log meals, analyze calories, and monitor dietary intake using AI-powered insights. Built with secure JWT authentication and Gemini API–based nutrition analysis for accurate, automated diet tracking.",
     tech: ["MERN", "Tailwind", "JWT", "Gemini API"],
-    image: "/assets/Nutrition.png",
+    image: nutritionImg,
     githubUrl: "https://github.com/pppatil3p/Nutrition-Tracker",
     liveUrl: "#",
   },
@@ -20,7 +21,7 @@ const projects = [
     description:
       "A full-stack AI-powered trip planning platform that helps users generate personalized travel itineraries, optimize routes, and discover activities based on preferences. Built with secure authentication and real-time AI-driven recommendations for efficient and customized travel planning.",
     tech: ["React", "Tailwind", "Gemini API","Firebase"],
-    image: "/assets/attrip.png",
+    image: tripImg,
     githubUrl: "https://github.com/pppatil3p/Ai-trip_planner",
     liveUrl: "#",
   },

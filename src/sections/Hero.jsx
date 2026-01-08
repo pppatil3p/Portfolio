@@ -2,7 +2,8 @@ import { motion } from "framer-motion"
 import { useEffect, useState } from "react"
 import SectionWrapper from "../components/SectionWrapper"
 import Button from "../components/Button"
-
+import profileImg from "../assets/ppp.jpeg"
+import resumePdf from "../assets/Prathmesh_resume.pdf";
 /* ================= FADE-UP ================= */
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -127,7 +128,7 @@ function Hero() {
           {/* ACTIONS */}
           <div className="flex flex-wrap items-center gap-4">
             <a
-              href="/assets/Prathmesh_resume.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -231,7 +232,7 @@ function Hero() {
                          relative z-10"
             >
               <motion.img
-                src="/assets/ppp.jpeg"
+                  src={profileImg}
                 alt="Prathmesh Patil"
                 className="w-full h-full object-cover"
                 initial={{
