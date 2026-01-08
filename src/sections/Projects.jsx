@@ -10,7 +10,7 @@ const projects = [
     description:
       "A full-stack nutrition tracking platform that enables users to log meals, analyze calories, and monitor dietary intake using AI-powered insights. Built with secure JWT authentication and Gemini API–based nutrition analysis for accurate, automated diet tracking.",
     tech: ["MERN", "Tailwind", "JWT", "Gemini API"],
-    image: "/Nutrition.png",
+    image: "/assets/Nutrition.png",
     githubUrl: "https://github.com/pppatil3p/Nutrition-Tracker",
     liveUrl: "#",
   },
@@ -20,7 +20,7 @@ const projects = [
     description:
       "A full-stack AI-powered trip planning platform that helps users generate personalized travel itineraries, optimize routes, and discover activities based on preferences. Built with secure authentication and real-time AI-driven recommendations for efficient and customized travel planning.",
     tech: ["React", "Tailwind", "Gemini API","Firebase"],
-    image: "/attrip.png",
+    image: "/assets/attrip.png",
     githubUrl: "https://github.com/pppatil3p/Ai-trip_planner",
     liveUrl: "#",
   },
@@ -30,7 +30,7 @@ const projects = [
     description:
       "A Spring Boot–based e-commerce Backend application featuring REST APIs for product management, cart operations, and order processing, with secure authentication and database-driven persistence.",
     tech: ["React", "Java","Springboot", "JPA","H2"],
-    image: "/dark-theme-mobile-app.png",
+    image: "",
     githubUrl: "https://github.com/pppatil3p/E-Com_Backend_SpringBoot",
     liveUrl: "#",
   },
@@ -40,7 +40,7 @@ const projects = [
     description:
       "A deep learning project focused on automatic organ classification in laparoscopic images using CNN models, data augmentation, and preprocessing to enhance accuracy for surgical applications.",
     tech: ["React", "Python", "ResNet18","CNN","Deep learning"],
-    image: "/dark-theme-mobile-app.png",
+    image: "",
     githubUrl: "https://github.com/pppatil3p/Organ-Classification-",
     liveUrl: "#",
   },
@@ -50,7 +50,7 @@ const projects = [
     description:
       "A data-driven profitability analysis that examines how discount strategies affect revenue and profit, enabling businesses to optimize pricing and promotional decisions.",
     tech: ["Pandas","Numpy","MatPlotlib","PowerBI"],
-    image: "/dark-theme-mobile-app.png",
+    image: "",
     githubUrl: "https://github.com/pppatil3p/discount-impact-profitability-analysis",
     liveUrl: "#",
   },

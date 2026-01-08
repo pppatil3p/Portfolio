@@ -127,7 +127,7 @@ function Hero() {
           {/* ACTIONS */}
           <div className="flex flex-wrap items-center gap-4">
             <a
-              href="/Prathmesh_resume.pdf"
+              href="/assets/Prathmesh_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -231,7 +231,7 @@ function Hero() {
                          relative z-10"
             >
               <motion.img
-                src="/ppp.jpeg"
+                src="/assets/ppp.jpeg"
                 alt="Prathmesh Patil"
                 className="w-full h-full object-cover"
                 initial={{
